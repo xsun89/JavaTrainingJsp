@@ -11,6 +11,11 @@
     <title></title>
   </head>
   <body>
+    <form action=<% request.getContextPath(); %>"/a.do" method="post">
+      <input type="text" name="name" />
+      <input type="submit" />
+    </form>
+
 
   </body>
 </html>
